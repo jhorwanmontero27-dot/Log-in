@@ -7,6 +7,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<input type="checkbox" id="menu-toggle">
+
+<label for="menu-toggle" class="menu-btn">
+  <img src="./assets/menu_open.svg" alt="Menú">
+</label>
+
+<nav class="side-menu">
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Sobre nosotros</a></li>
+    <li><a href="#">Contáctanos</a></li>
+  </ul>
+</nav>
 
 <fieldset class="form-animate">
   <header>
@@ -36,8 +49,12 @@
       </div>
 
       <p>
-        <a href="olvidemicontraseña.html">¿Olvidaste tu contraseña?</a> |
+        <div>
+        <a href="olvidemicontraseña.html">¿Olvidaste tu contraseña?</a>
+        </div>
+        <div>
         <a href="Registrarse.html">Crear cuenta</a>
+        </div>
       </p>
 
       <input type="hidden" name="redirect" value="/dashboard">
